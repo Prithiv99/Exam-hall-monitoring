@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 6
+names: ['cellphone', 'cheat paper', 'look over behind', 'look over front', 'normal', 'wave']
+
+roboflow:
+  workspace: imv-sglbs
+  project: exam_hall_monitoring
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/imv-sglbs/exam_hall_monitoring/dataset/2
